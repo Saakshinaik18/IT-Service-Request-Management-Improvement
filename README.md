@@ -45,18 +45,18 @@ The project explores these information needs and translates them into proposed b
 
 ## 4. Business Analysis Deliverables
 
-| Deliverable | Description |
+| Deliverable | Documentation |
 |---|---|
-| Business Problem Statement | Defines the business context, problem and objectives |
-| Stakeholder Analysis | Identifies proposed stakeholder roles and needs |
-| BRD | Documents business requirements |
-| FRD | Defines proposed functional requirements |
-| As-Is Process Flow | Represents the inferred existing workflow |
-| To-Be Process Flow | Illustrates the proposed improved workflow |
-| Gap Analysis | Compares current and proposed processes |
-| User Stories | Converts requirements into user-focused scenarios |
-| UAT Test Cases | Defines proposed validation scenarios |
-| RTM | Maps business requirements to functional requirements and test cases |
+| Business Problem Statement | [View Document](01-Project-Overview/Business-Problem-Statement.md) |
+| Stakeholder Analysis | [View Document](02-Stakeholder-Analysis/Stakeholder-Analysis.md) |
+| Business Requirements Document (BRD) | [View Document](03-Requirements/BRD.md) |
+| Functional Requirements Document (FRD) | [View Document](03-Requirements/FRD.md) |
+| Requirements Traceability Matrix (RTM) | [View Document](03-Requirements/Requirements-Traceability-Matrix.md) |
+| As-Is Process Flow | [View Diagram](04-Process-Analysis/As-Is-Process.png) |
+| To-Be Process Flow | [View Diagram](04-Process-Analysis/To-Be-Process.png) |
+| Gap Analysis | [View Document](04-Process-Analysis/Gap-Analysis.md) |
+| User Stories | [View Document](05-User-Stories/User-Stories.md) |
+| UAT Test Cases | [View Document](06-UAT/UAT-Test-Cases.md) |
 
 ## 5. Repository Structure
 
