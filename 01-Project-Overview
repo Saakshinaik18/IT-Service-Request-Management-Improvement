@@ -1,0 +1,198 @@
+# Business Problem Statement
+## IT Service Request Management Improvement
+
+**Project Type:** Independent Business Analysis Case Study  
+**Organization:** Nexora Technologies (Fictional)  
+**Industry:** IT Services  
+**Organization Size:** 500 Employees (Assumed)  
+**Role:** Business Analyst  
+**Document Version:** 1.0  
+**Status:** Initial Draft
+
+---
+
+## 1. Project Overview
+
+Nexora Technologies is a fictional IT services organization with approximately 500 employees. The organization relies on its internal IT support team to manage employee service requests, technical issues, access-related requests and other IT support activities.
+
+Currently, the service request management process is assumed to have operational challenges related to request categorization, prioritization, assignment, status tracking and service-level monitoring.
+
+This project aims to analyse the existing IT service request management process, identify operational gaps and propose improvements to enhance request handling, visibility and overall service delivery.
+
+The project will use a structured Business Analysis approach to understand business needs, document requirements, analyse workflows and recommend practical improvements.
+
+## 2. Business Background
+
+The IT support team handles different categories of employee requests, including:
+
+- Hardware and software support.
+- System access and permission requests.
+- Application-related issues.
+- Network and connectivity issues.
+- General IT service requests.
+
+An effective service request management process is important to ensure that requests are properly recorded, categorized, prioritized, assigned and resolved.
+
+The organization requires a more structured approach to managing these requests and monitoring service performance.
+
+## 3. Problem Statement
+
+The existing IT service request management process is assumed to face challenges in request categorization, prioritization, assignment and tracking.
+
+Limited visibility into request status, inconsistent handling of priorities and insufficient operational reporting may make it difficult for employees and IT support teams to monitor request progress and identify service delivery bottlenecks.
+
+Additionally, the absence of structured performance monitoring may affect the team's ability to identify recurring issues, monitor SLA compliance and make informed operational decisions.
+
+The organization therefore requires an analysis of its current request management process to identify gaps and define business and functional requirements for an improved process.
+
+## 4. Key Business Challenges
+
+The following challenges will be investigated as part of this case study:
+
+| ID | Business Challenge | Potential Business Impact |
+|---|---|---|
+| BC-01 | Inconsistent request categorization | Difficulty identifying request trends |
+| BC-02 | Inefficient request prioritization | High-priority requests may not receive timely attention |
+| BC-03 | Delays in request assignment | Increased request handling time |
+| BC-04 | Limited request status visibility | Poor employee experience and follow-up effort |
+| BC-05 | SLA monitoring challenges | Difficulty identifying service-level risks |
+| BC-06 | Limited operational reporting | Reduced visibility into team performance |
+
+*Note: These are initial business hypotheses to be validated through dataset analysis and process investigation. They are not confirmed findings.*
+
+## 5. Business Objectives
+
+The objectives of this project are:
+
+1. Analyse the existing IT service request management workflow.
+2. Identify gaps in request categorization, prioritization and assignment.
+3. Understand stakeholder requirements and operational expectations.
+4. Define business and functional requirements for process improvement.
+5. Propose an improved request management workflow.
+6. Establish relevant KPIs for monitoring request volume, resolution time and SLA performance.
+7. Develop recommendations to improve operational visibility and service delivery.
+
+## 6. Project Scope
+
+### In Scope
+
+- Analysis of the IT service request management process.
+- Identification of business stakeholders.
+- Review of request categories, priorities and statuses.
+- Analysis of request assignment and resolution workflows.
+- Review of SLA-related information.
+- Business requirements documentation (BRD).
+- Functional requirements documentation (FRD).
+- As-Is and To-Be process mapping.
+- Gap analysis.
+- User stories and acceptance criteria.
+- UAT test case preparation.
+- Business recommendations and KPI identification.
+
+### Out of Scope
+
+- Actual implementation of an ITSM platform.
+- Software development or system configuration.
+- Live integration with ServiceNow or other ITSM platforms.
+- Actual changes to organizational IT policies.
+- Production deployment and post-implementation support.
+
+## 7. Key Stakeholders
+
+The following stakeholders are considered for this case study:
+
+| Stakeholder | Responsibility |
+|---|---|
+| Employees / Requesters | Raise and track IT service requests |
+| IT Support Team | Review, assign and resolve requests |
+| IT Service Desk Manager | Monitor request handling and team performance |
+| IT Operations Manager | Oversee IT service delivery |
+| Business Analyst | Analyse requirements and document process improvements |
+| IT Management | Review proposed improvements and approve business direction |
+
+## 8. Expected Business Benefits
+
+The proposed improvements aim to deliver the following benefits:
+
+- Improved visibility into request status and progress.
+- More consistent request categorization and prioritization.
+- Better identification of assignment and resolution bottlenecks.
+- Improved SLA monitoring and operational reporting.
+- Better understanding of recurring IT support issues.
+- More informed decision-making through KPI-based reporting.
+
+These are expected benefits, not measured outcomes.
+
+## 9. Key Performance Indicators (KPIs)
+
+The following KPIs will be evaluated during the analysis:
+
+| KPI | Business Purpose |
+|---|---|
+| Total Request Volume | Monitor overall demand for IT support |
+| Average Resolution Time | Understand request resolution efficiency |
+| SLA Compliance Rate | Monitor service-level performance |
+| Open Request Backlog | Identify pending workload |
+| Priority-wise Request Volume | Understand high-priority demand |
+| Request Category Distribution | Identify common support requirements |
+| Request Assignment Time | Identify potential assignment delays |
+
+Baseline values and performance targets will be established after reviewing the available dataset and validating business requirements.
+
+## 10. Assumptions and Constraints
+
+### Assumptions
+
+- Nexora Technologies is a fictional organization created for this independent case study.
+- The organization has approximately 500 employees.
+- IT service requests are recorded in a structured ticket management system.
+- Relevant historical ticket information will be available for analysis.
+- Proposed process improvements are recommendations rather than implemented changes.
+
+### Constraints
+
+- The project is based on publicly available or sample data.
+- Actual stakeholder interviews are not part of this simulated case study.
+- Business assumptions must be validated wherever supporting data is available.
+- The project does not include production system implementation.
+
+## 11. Expected Deliverables
+
+| Deliverable | Description |
+|---|---|
+| Business Problem Statement | Define the business problem and objectives |
+| Stakeholder Register | Identify key stakeholders |
+| Business Requirements Document | Document business requirements |
+| Functional Requirements Document | Define expected system functionality |
+| As-Is Process Flow | Represent the existing process |
+| To-Be Process Flow | Propose an improved process |
+| Gap Analysis | Identify differences between current and proposed processes |
+| User Stories | Translate requirements into Agile user stories |
+| UAT Test Cases | Define validation scenarios |
+| Business Recommendations | Present proposed improvements |
+
+## 12. Project Success Criteria
+
+The case study will be considered successfully completed when:
+
+- The business problem and project objectives are clearly documented.
+- Key stakeholders and their requirements are identified.
+- Existing process gaps are documented.
+- Business and functional requirements are traceable.
+- Proposed process improvements are documented.
+- User stories and acceptance criteria are prepared.
+- UAT scenarios are defined.
+- KPI-based recommendations are presented.
+
+## 13. Conclusion
+
+This project will apply Business Analysis practices to evaluate an IT service request management process and identify opportunities for operational improvement.
+
+Through structured requirement documentation, process analysis, stakeholder identification and performance evaluation, the case study aims to demonstrate how a Business Analyst can translate business problems into clearly defined requirements and actionable recommendations.
+
+---
+
+**Prepared by:** Independent Business Analyst Portfolio Project  
+**Project:** IT Service Request Management Improvement  
+**Document:** Business Problem Statement  
+**Version:** 1.0
