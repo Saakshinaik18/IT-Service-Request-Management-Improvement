@@ -1,80 +1,140 @@
-# Business Problem Statement
+# IT Service Request and Help Desk Workflow Improvement
 
-## Project Title
-IT Service Request Management Improvement
+## Business Analyst Portfolio Project
+
+**Project Type:** Business Analysis | IT Service Management | Process Improvement
+
+**Project Status:** Documentation and analysis case study
 
 ## 1. Project Overview
 
-Nexora Technologies is a fictional organization with approximately 500 employees who depend on internal IT support services for their daily operational activities.
+This project explores how historical IT help desk ticket data can be used to understand service request workflows, identify potential process improvement opportunities and define reporting requirements.
 
-The IT support team handles employee requests related to hardware, software installation, account access, password resets, network connectivity and application support.
+The case study demonstrates a structured Business Analyst approach, including business problem definition, stakeholder analysis, requirements documentation, process analysis, user stories, UAT planning and requirements traceability.
 
-This independent Business Analyst case study focuses on evaluating the existing IT service request management process and identifying opportunities to improve request handling, tracking, prioritization and escalation.
+The project uses an anonymized historical help desk dataset covering January 2016 to March 2023.
+
+**Important:** This is an independent portfolio case study. The proposed workflow and reporting improvements have not been implemented in a live organization.
 
 ## 2. Business Problem
 
-The existing IT service request management process lacks standardized request classification, assignment, tracking and escalation procedures.
+Help desk operations generate historical ticket information across issue types, priorities, statuses, assignments and workflow stages.
 
-As a result, employees may experience delays in receiving support, difficulty tracking requests and inconsistent communication regarding request status.
+Without consolidated analysis, it can be difficult for operations teams to understand:
 
-The IT support management team also requires better visibility into pending requests, overdue tickets and overall service performance.
+- Ticket volume and distribution.
+- Priority and status patterns.
+- Historical resolution duration.
+- Assignment and contributor activity.
+- Workflow transitions and potential rework.
+- Areas where additional operational visibility may be useful.
 
-## 3. Business Objectives
+The project explores these information needs and translates them into proposed business and functional requirements.
 
-- Standardize the IT service request submission process.
-- Improve request categorization and prioritization.
-- Establish clear ticket assignment and escalation procedures.
-- Improve request status tracking and communication.
-- Define reporting requirements for monitoring IT support performance.
+## 3. Project Objectives
 
-## 4. Project Scope
+- Understand the available historical ticket data.
+- Define the business problem and project scope.
+- Identify proposed stakeholders and their information needs.
+- Document business and functional requirements.
+- Analyse the current and proposed workflows.
+- Identify potential process gaps.
+- Create user stories and acceptance criteria.
+- Prepare UAT test scenarios.
+- Establish end-to-end requirements traceability.
 
-### In Scope
-- Employee IT service request submission.
-- Request categorization and prioritization.
-- Ticket assignment and tracking.
-- Escalation procedures.
-- Request status notifications.
-- IT support reporting requirements.
+## 4. Business Analysis Deliverables
 
-### Out of Scope
-- Actual software development and deployment.
-- Hardware procurement.
-- Infrastructure migration.
-- Third-party vendor contract management.
+| Deliverable | Description |
+|---|---|
+| Business Problem Statement | Defines the business context, problem and objectives |
+| Stakeholder Analysis | Identifies proposed stakeholder roles and needs |
+| BRD | Documents business requirements |
+| FRD | Defines proposed functional requirements |
+| As-Is Process Flow | Represents the inferred existing workflow |
+| To-Be Process Flow | Illustrates the proposed improved workflow |
+| Gap Analysis | Compares current and proposed processes |
+| User Stories | Converts requirements into user-focused scenarios |
+| UAT Test Cases | Defines proposed validation scenarios |
+| RTM | Maps business requirements to functional requirements and test cases |
 
-## 5. Key Stakeholders
+## 5. Repository Structure
 
-- Employees / Requesters
-- IT Support Team
-- IT Support Team Lead
-- IT Service Manager
-- Business Analyst
-- System Administrator
+```text
+IT-Service-Request-Management/
+│
+├── README.md
+│
+├── 01-Project-Overview/
+│   └── Business-Problem-Statement.md
+│
+├── 02-Stakeholder-Analysis/
+│   └── Stakeholder-Analysis.md
+│
+├── 03-Requirements/
+│   ├── BRD.md
+│   ├── FRD.md
+│   └── Requirements-Traceability-Matrix.md
+│
+├── 04-Process-Analysis/
+│   ├── As-Is-Process.drawio
+│   ├── As-Is-Process.png
+│   ├── To-Be-Process.drawio
+│   ├── To-Be-Process.png
+│   └── Gap-Analysis.md
+│
+├── 05-User-Stories/
+│   └── User-Stories.md
+│
+└── 06-UAT/
+    └── UAT-Test-Cases.md
+```
 
-## 6. Expected Business Benefits
+## 6. Business Analysis Approach
 
-- Improved visibility into service requests.
-- More consistent request handling.
-- Better prioritization of critical requests.
-- Improved communication between employees and IT support.
-- Better management reporting and operational monitoring.
+The project follows these stages:
 
-## 7. Assumptions
+1. **Problem Definition:** Understand the business context and identify the problem.
+2. **Stakeholder Analysis:** Identify proposed stakeholder groups and their needs.
+3. **Requirements Elicitation and Documentation:** Define business and functional requirements based on available data and case study assumptions.
+4. **Process Analysis:** Document the inferred As-Is workflow and proposed To-Be workflow.
+5. **Gap Analysis:** Identify potential improvement opportunities.
+6. **User Stories:** Translate requirements into user-focused scenarios.
+7. **UAT Planning:** Define test cases and expected results.
+8. **Requirements Traceability:** Connect requirements with user stories and test cases.
 
-- Nexora Technologies is a fictional organization created for this case study.
-- The existing process is assumed to involve inconsistent request handling.
-- The proposed improvements are recommendations, not implemented solutions.
-- Actual operational performance will be assessed using the selected sample dataset and clearly documented assumptions.
+## 7. Tools and Techniques
 
-## 8. Project Deliverable
+- GitHub – Documentation and version control.
+- Draw.io – Process flow diagrams.
+- Markdown – Business analysis documentation.
+- Excel / Data analysis tools – Historical data review, where applicable.
 
-A proposed IT service request management process supported by business requirements, functional requirements, process flow diagrams, user stories, acceptance criteria, a Requirement Traceability Matrix and User Acceptance Testing documentation.
+## 8. Key Business Analysis Concepts Demonstrated
 
----
+- Business problem definition
+- Stakeholder identification and analysis
+- BRD and FRD documentation
+- Functional and non-functional requirements
+- As-Is and To-Be process mapping
+- Gap analysis
+- User stories and acceptance criteria
+- UAT test planning
+- Requirements Traceability Matrix
+- Change impact assessment
 
-**Project Type:** Independent Business Analysis Case Study
+## 9. Project Limitations and Assumptions
 
-**Role:** Business Analyst
+- The dataset contains historical and anonymized ticket information.
+- The As-Is process is inferred from available dataset fields and is not a verified organizational SOP.
+- Stakeholders are proposed personas, not actual interview participants.
+- The To-Be process represents a recommendation, not an implemented workflow.
+- Business benefits are expected and have not been measured.
+- SLA compliance is not assessed because approved SLA targets and business calendar rules are unavailable.
+- UAT scenarios are documented but have not been executed against a live application.
 
-**Tools:** Excel, Draw.io, GitHub, Jira (for simulated project documentation)
+## 10. Author's Contribution
+
+Independently developed this portfolio case study to demonstrate a structured Business Analyst approach to understanding an IT service management problem and preparing supporting project documentation.
+
+**Focus:** Business analysis, requirements documentation, process improvement and IT operations.
